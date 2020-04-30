@@ -1,0 +1,126 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.screen{
+    height: 500px;
+    width: 450px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: grey;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 silver;
+    -webkit-box-shadow: 0 4px 8px 0 silver;
+    -moz-box-shadow: 0 4px 8px 0 silver;
+    border-radius: 5px;
+}
+.form_container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form_container h1,h2{
+    text-align: center;
+}
+.input-group label{
+    margin-right: 15px;
+}
+.input-group input{
+    width: 100%;
+}
+.button_container{
+    padding: 0 2rem;
+}
+.reg_btn, .login_btn{
+    width: 50%;
+    background: rgb(30, 140, 230) !important;
+}
+.reg_btn:hover, .login_btn:hover{
+    box-shadow: 0 4px 8px 0 silver;
+    -webkit-box-shadow: 0 4px 8px 0 silver;
+    -moz-box-shadow: 0 4px 8px 0 silver;
+}
+.reg_btn:focus, .login_btn:focus{
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.link1 a{
+    color: blue;
+    font-weight: bold;
+}
+.link1 a:hover{
+    text-decoration: none;
+}
+.link2 a{
+    color: blue;
+}
+.link2 a:hover{
+    text-decoration: none;
+}
+.index_container h1{
+    color: tomato 
+}
+.index_container a{
+    color: darkblue;
+}
+.index_container a:hover{
+    text-decoration: none;
+}
+
+.screen1{
+    height: 650px;
+    width: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: grey;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 silver;
+    -webkit-box-shadow: 0 4px 8px 0 silver;
+    -moz-box-shadow: 0 4px 8px 0 silver;
+    border-radius: 5px;
+}
+.task_input{
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid;
+}
+.task_btn{
+    height: 40px;
+    background: rgb(30, 140, 230) !important;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 5px 10px;
+}
+.task_btn:hover{
+    box-shadow: 0 4px 8px 0 silver;
+    -webkit-box-shadow: 0 4px 8px 0 silver;
+    -moz-box-shadow: 0 4px 8px 0 silver;
+}
+th{
+    font-size: 20px;
+    text-align: center;
+}
+td{
+    text-align: center;
+    font-size: 18px;
+}
+.delete{
+    text-align: center;
+}
+.delete a{
+    color: red;
+}
+.delete a:hover{
+    text-decoration: none;
+}
+
+
